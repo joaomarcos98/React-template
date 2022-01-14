@@ -1,0 +1,27 @@
+.app {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    font: 400 1rem "Roboto", sans-serif;
+    gap: 3rem;
+}
+
+.app>img {
+    animation: rotating 8s linear infinite;
+}
+
+@keyframes rotating {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
