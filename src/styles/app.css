@@ -13,6 +13,8 @@
 }
 
 .app>img {
+    height: 400px;
+
     animation: rotating 8s linear infinite;
 }
 

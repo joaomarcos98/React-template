@@ -6,7 +6,8 @@
     "scripts": {
         "dev": "webpack server",
         "build": "cross-env NODE_ENV=production webpack",
-        "test": "jest"
+        "test": "jest",
+        "test:dev": "jest --watch"
     },
     "devDependencies": {
         "@babel/cli": "^7.16.8",

@@ -2,16 +2,16 @@ module.exports = {
     roots: ['<rootDir>/src', '<rootDir>/tests'],
     testPathIgnorePatterns: ["/node_modules", "/dist"],
     setupFilesAfterEnv: [
-        "<rootDir>/tests/setupTests.ts"
+        "<rootDir>/tests/config/setupTests.ts"
     ],
     transform: {
-        "^.+\\.(js|jsx|ts|tsx)$": "<rootDir>/node_modules/babel-jest"
+        "^.+\\.(ts|tsx)$": "ts-jest"
     },
     testEnvironment: "jsdom",
     moduleNameMapper: {
         '@/(.*)': '<rootDir>/src/$1',
         '@/tests/(.*)': '<rootDir>/tests/$1',
-        "\\.(jpg|jpeg|png|gif|svg)$": "<rootDir>/__mocks__/fileMock.ts",
-        "\\.(scss|css|sass)$": "identity-obj-proxy"
+        "\\.css$": "identity-obj-proxy",
+        "\\.(svg|png|jpg|jpeg)": "<rootDir>/__mocks__/fileMock.ts",
     }
 }

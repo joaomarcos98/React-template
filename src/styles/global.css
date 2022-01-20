@@ -1,4 +1,3 @@
-
 :root {
     --white: #fafafa;
     --gray-500: #222222;
@@ -7,7 +6,7 @@
     --yellow-500: #eba417;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
