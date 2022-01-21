@@ -6,7 +6,7 @@ const App = () => {
     return (
         <div className="app">
             <img src={ReactThumb} alt="Logo do React" role="img"/>
-            <h1>Hello World</h1>
+            <h1>Welcome to React</h1>
         </div>
     )
 };

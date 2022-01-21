@@ -13,9 +13,19 @@
 }
 
 .app>img {
-    height: 400px;
+    height: 350px;
 
     animation: rotating 8s linear infinite;
+}
+
+.app>h1{
+    z-index: 3;
+    color: #fafafa;
+}
+.app>h1::after {
+    content: ".";
+    color: var(--cyan-500);
+    margin-left: .25rem;
 }
 
 @keyframes rotating {
