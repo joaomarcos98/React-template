@@ -40,17 +40,18 @@
 		"@typescript-eslint/consistent-type-definitions": "off",
 		"@typescript-eslint/strict-boolean-expressions": "off",
 		"@typescript-eslint/no-floating-promises": "off",
+		"@typescript-eslint/no-empty-function": "warn",
 		"@typescript-eslint/comma-spacing": "off",
 		"@typescript-eslint/return-await": "off",
 		"@typescript-eslint/no-namespace": "off",
-		"@typescript-eslint/no-empty-function": "warn",
 		"react/react-in-jsx-scope": "off",
-		"react/jsx-uses-react": "error",
-		"react/jsx-uses-vars": "warn",
-		"prefer-arrow-callback": "warn",
 		"no-useless-constructor": "warn",
+		"react/jsx-uses-react": "error",
+		"prefer-arrow-callback": "warn",
 		"no-duplicate-imports": "error",
-		"prefer-const": "warn",
-		"no-unneeded-ternary": "warn"
+		"prefer-destructuring": "error",
+		"default-param-last": "error",
+		"react/jsx-uses-vars": "warn",
+		"prefer-const": "warn"
 	}
 }
