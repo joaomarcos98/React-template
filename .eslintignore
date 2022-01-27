@@ -1,7 +1,7 @@
 node_modules
 __mocks__
-.vscode
-coverage
 public
 dist
+.vscode
 *.json
+*.config.js
