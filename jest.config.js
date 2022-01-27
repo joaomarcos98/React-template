@@ -1,3 +1,4 @@
+
 module.exports = {
 	roots: ["<rootDir>/src", "<rootDir>/tests"],
 	testPathIgnorePatterns: ["/node_modules", "/dist"],
